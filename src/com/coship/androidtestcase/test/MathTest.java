@@ -5,14 +5,13 @@ import android.util.Log;
 
 public class MathTest extends AndroidTestCase{
 
+	private static final String TAG = "MathTest";
+	
 	protected int i1;
 	protected int i2;
-	private static final String TAG = "MathTest";
 	
 	@Override
 	protected void setUp() throws Exception {
-		// TODO Auto-generated method stub
-		super.setUp();
 		i1 = 2;
 		i2 = 3;
 	}
@@ -24,7 +23,6 @@ public class MathTest extends AndroidTestCase{
 
 	@Override
 	public void testAndroidTestCaseSetupProperly() {
-		// TODO Auto-generated method stub
 		super.testAndroidTestCaseSetupProperly();
 		Log.d( TAG, "testAndroidTestCaseSetupProperly" );
 	}
