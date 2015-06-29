@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android单元测试</string>
+    <string name="start_test">启动测试</string>
+
+</resources>
